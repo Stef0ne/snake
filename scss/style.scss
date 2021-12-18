@@ -1,0 +1,55 @@
+@import "reset";
+@import "variables";
+@import "mixin";
+@import 'media';
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: inherit
+}
+
+body {
+	background-color: rebeccapurple;
+	color: #fff;
+	font-family: 'HelveticaNeueCyr-Roman';
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.container {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.slider{
+  min-width: 0;
+  position: relative;
+  &__item{
+    text-align: center;
+  }
+}
+
+canvas{
+  display: block;
+  margin: 0 auto;
+}
+
+.main{
+  padding-top: 100px;
+}
