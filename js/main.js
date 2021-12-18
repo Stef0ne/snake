@@ -1,8 +1,3 @@
-// $(document).ready(function () {
-// 	$('.slider').slick({
-
-// 	});
-// });
 
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
